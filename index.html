@@ -8,15 +8,16 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/path/to/infinite-scroll.pkgd.min.js"></script>
     <title>Floricultura Rissi</title>
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" int~~egrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <br>
 
-<div class="container">
+<div>
   <!-- Nav pills -->
-  <ul class="nav nav-pills" role="tablist">
+  <!-- <ul class="nav nav-pills" role="tablist">
     <li class="nav-item">
       <a class="nav-link active" data-toggle="pill" href="#home">Home</a>
     </li>
@@ -29,20 +30,38 @@
     <li class="nav-item">
       <a class="nav-link" data-toggle="pill" href="#menu2">Sobre Nós</a>
     </li>
-  </ul>
+  </ul> -->
 
   <!-- Tab panes -->
-  <div class="tab-content">
-    <div id="home" class="container tab-pane active">
-      <img src="florRoxa.jpg" class="img-fluid" alt="...">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand bg-light font-italic text-dark" href="#">Floricultura Rissi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="nav nav-pills pt-1" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link bg-light font-italic text-dark border-left" data-toggle="pill" href="#nossosprodutos">Nossos Produtos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link bg-light font-italic text-dark" data-toggle="pill" href="#menu1">Contato</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link bg-light font-italic text-dark" data-toggle="pill" href="#menu2">Sobre Nós</a>
+    </li>
+  </ul>
+      </div>
     </div>
+  </nav>
+  <div class="tab-content pt-4 pt-md-3 font-italic">
     <div id="nossosprodutos" class="container tab-pane active"><br>
       <h3>Nossos Produtos</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col-12">
           <div class="card">
-            <img src="buque.jpg" class="card-img-top">
+            <img src="images/buque.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Buquê de Rosas</h5>
             </div>
@@ -50,7 +69,7 @@
         </div>
         <div class="col-12">
           <div class="card">
-            <img src="CestadeCafédaManhã.jpg" class="card-img-top">
+            <img src="images/CestadeCafédaManhã.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Cesta para Café da Manhã</h5>
             </div>
@@ -58,7 +77,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="BuquedeChocolates.jpg" class="card-img-top">
+            <img src="images/BuquedeChocolates.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Buquê de Chocolates</h5>
             </div>
@@ -66,15 +85,21 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="TulipasAzuis.jpg" class="card-img-top">
+            <img src="images/TulipasAzuis.jpg" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">Buquê De Tulipas</h5>
             </div>
           </div>
         </div>
       </div>
+      <footer class="bg-light text-center text-lg-start font-italic">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-dark">Floricultura Rissi</a>
+        </div>
+      </footer> 
     </div>
-    <div id="menu1" class="container tab-pane fade"><br>
+    <div id="menu1" class="container tab-pane fade pt-2 pt-md-3"><br>
       <div class="mb-3">
         <label for="exampleFormControlNome" class="form-label">Nome</label>
         <input type="name" class="form-control" id="exampleFormControlNome" placeholder="Seu Nome">
@@ -91,18 +116,13 @@
         <button class="btn btn-outline-success" type="button">Enviar</button>
       </div>
     </div>
-    <div id="menu2" class="container tab-pane fade"><br>
+    <div id="menu2" class="container tab-pane fade pt-4 pt-md-3"><br>
       <h3>Sobre Nós</h3>
       <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-      <img src="equipe.jpg" class="img-thumbnail">
+      <img src="images/equipe.jpg" class="img-thumbnail">
     </div>
   </div>
 </div>
-<!-- <footer class="bg-dark text-light">
-  <div class="text-center" style="background-color: rgb(48, 31, 47)adding: 20px;" >
-    &copy 2021 Copyright: <a href="#">Floricultura Rissi</a>
-  </div>
-</footer> -->
   </body>
 </html>
 
