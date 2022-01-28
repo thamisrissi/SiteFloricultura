@@ -1,2 +1,2 @@
 # SiteFloricultura
-Este é um site para uma floricultura, estou usanedo uma tela mais clean.
+Este é um site para uma floricultura, estou usando uma tela mais clean.
