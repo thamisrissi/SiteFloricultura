@@ -52,7 +52,7 @@
       </div>
     </div>
   </nav>
-  <div class="tab-content pt-4 pt-md-3 font-italic px-2 px-md-4">
+  <div class="tab-content pt-5 pt-md-6 font-italic px-2 px-md-4">
     <section id="nossosprodutos" class="tab-pane active" style="min-height: 100vh;"><br>
       <h3>Nossos Produtos</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -90,38 +90,39 @@
           </div>
         </div>
       </div> 
-    </section>
-    <section id="menu1" class="tab-pane fade pt-2 pt-md-3"><br>
-      <div class="mb-3">
+    </section> 
+    <section id="menu1" class="tab-pane fade pt-2 pt-md-3"  style="min-height: 85vh">
+      <img class="float-left col-1 col-md-3 pt-md-4" src="images/florpretaebranca.jpg ">
+      <div class="mb-3 pt-md-4">
         <label for="exampleFormControlNome" class="form-label">Nome</label>
-        <input type="name" class="form-control" id="exampleFormControlNome" placeholder="Seu Nome">
+        <input type="name" class="form-control col-md-8" id="exampleFormControlNome" placeholder="Seu Nome" method="post">
       </div>
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Email</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="seunome@exemplo.com">
+        <input type="email" class="form-control col-md-8" id="exampleFormControlInput1" placeholder="seunome@exemplo.com" method="post">
       </div>
       <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="exampleFormControlTextarea1" class="form-label" method="post">Mensagem</label>
+        <textarea class="form-control col-md-8" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
       <div class="d-grid gap-2 d-md-block">
-        <button class="btn btn-outline-success" type="button">Enviar</button>
+        <button class="btn btn-outline-success col-md-8" type="button" onclick="">Enviar</button>
       </div>
     </section>
-    <section id="menu2" class="tab-pane fade pt-2 pt-md-3"><br>
+    <section id="menu2" class="tab-pane fade pt-2 pt-md-3"> 
       <h3>Sobre Nós</h3>
       <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
       <img src="images/equipe.jpg" class="img-thumbnail">
     </section>
   </div>
-  <footer class="bg-light text-center text-lg-start font-italic">
+    </div>
+  </body>
+  <footer class="bg-light text-center text-lg-start font-italic mt-3">
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2022 Copyright:
       <a class="text-dark">Floricultura Rissi</a>
     </div>
   </footer>
-    </div>
-  </body>
 </html>
 <style>
   .selector-for-some-widget {
@@ -130,4 +131,10 @@
 section{
   min-height: 100vh;
 }
-      </style>
+</style>
+
+<script>
+  function EnviarForm() {
+    
+  }
+</script>
