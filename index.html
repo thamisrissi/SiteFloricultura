@@ -91,25 +91,27 @@
         </div>
       </div> 
     </section> 
-    <section id="menu1" class="tab-pane fade pt-2 pt-md-3"  style="min-height: 85vh">
-      <img class="float-left col-1 col-md-3 pt-md-4" src="images/florpretaebranca.jpg ">
-      <div class="mb-3 pt-md-4">
-        <label for="exampleFormControlNome" class="form-label">Nome</label>
-        <input type="name" class="form-control col-md-8" id="exampleFormControlNome" placeholder="Seu Nome" method="post">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email</label>
-        <input type="email" class="form-control col-md-8" id="exampleFormControlInput1" placeholder="seunome@exemplo.com" method="post">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label" method="post">Mensagem</label>
-        <textarea class="form-control col-md-8" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      <div class="d-grid gap-2 d-md-block">
-        <button class="btn btn-outline-success col-md-8" type="button" onclick="">Enviar</button>
+    <section id="menu1" class="tab-pane fade pt-2 pt-md-5"  style="min-height: 85vh; max-height: 100vh">
+      <img class="float-sm-left col-1 col-md-3 pt-md-4" src="images/florpretaebranca.jpg ">
+      <div class="row">
+        <div class="col-md-6">
+          <label for="exampleFormControlNome" class="form-label">Nome</label>
+          <input name="nome" class="form-control" placeholder="Seu Nome" id="nomeid" required="required" type="text">
+        </div>
+        <div class="mb-3 col-md-6">
+          <label for="exampleFormControlInput1" class="form-label" type="email" id="emailid">Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="seunome@exemplo.com" method="post">
+        </div>
+        <div class="mb-3 col-md-12">
+          <label for="exampleFormControlTextarea1" class="form-label" method="post" id="mensagemid">Mensagem</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="d-grid gap-2 d-md-block">
+          <button class="btn btn-outline-success col-md-12" type="button" onclick="EnviarForm();">Enviar</button>
+        </div>
       </div>
     </section>
-    <section id="menu2" class="tab-pane fade pt-2 pt-md-3"> 
+    <section id="menu2" class="tab-pane fade pt-2 pt-md-3" style="min-height: 85vh"> 
       <h3>Sobre Nós</h3>
       <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
       <img src="images/equipe.jpg" class="img-thumbnail">
@@ -135,6 +137,10 @@ section{
 
 <script>
   function EnviarForm() {
-    
+    var nome = document.getElementById("nomeid");
+
+    if (nome.value != "") {
+        alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
   }
+}
 </script>
