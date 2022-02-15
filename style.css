@@ -1,0 +1,14 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+    }
+section{
+min-height: 100vh;
+}
+.contato {
+  min-height: 87vh;
+  }
+footer{
+  clear: both;
+  margin-top: 10px;
+
+}
