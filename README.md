@@ -7,4 +7,4 @@ Este é um site para uma floricultura, estou usando uma tela mais limpa, foi adi
 🖥️ Tecnologias utilizadas
 
 
-CSS Css3
+CSS Bootstrap
