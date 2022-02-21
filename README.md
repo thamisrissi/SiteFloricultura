@@ -20,8 +20,8 @@ Este é um site para uma floricultura, estou usando uma tela mais limpa, 100% Re
 
 <br>
 
+Contato
  <div>
-  Contato
     <a href = "mailto:thamisrissi@outlook.com"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"></a>
     <a href="https://www.linkedin.com/in/thamis-rissi" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
     <a href = "http://api.whatsapp.com/send?1=pt_BR&phone=5504398558400"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
