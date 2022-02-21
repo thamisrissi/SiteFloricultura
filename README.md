@@ -5,12 +5,11 @@ Floricultura Rissi !
 Este é um site para uma floricultura, estou usando uma tela mais limpa, 100% Responsivo.
 
 
-<link> https://thamisrissi.github.io/SiteFloricultura/ <link>
+<link> https://thamisrissi.github.io/SiteFloricultura/ <link><br>
 
 
 
 🖥️ Tecnologias utilizadas
-
 
 <div style="display: inline_block"><br>
   <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
