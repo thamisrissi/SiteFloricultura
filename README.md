@@ -18,6 +18,8 @@ Este é um site para uma floricultura, estou usando uma tela mais limpa, 100% Re
   <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
 </div>
 
+<br>
+
  <div>
   Contato
     <a href = "mailto:thamisrissi@outlook.com"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"></a>
